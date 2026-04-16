@@ -1,0 +1,17 @@
+1. Créer le projet Vite + React
+bashnpm create vite@latest . -- --template react
+
+2. Installer les dépendances
+bashnpm install
+npm install axios react-router-dom
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+Dashboard.jsx
+Etudiants.jsx · EtudiantDetail.jsx
+Paiements.jsx · Classes.jsx · Login.jsx
+
+
+
+https://www.youtube.com/watch?v=J2j1yk-34OY&list=PL4cUxeGkcC9hNTz3sxqGTfxAwU-DIHJd2

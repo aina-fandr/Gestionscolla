@@ -1,0 +1,72 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --card: #111827;
+  --border: #1f2937;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent: #6366f1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system_ui, sans-serif;
+  background-color: var(--background);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Amélioration globale de la fluidité */
+main {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Pour rendre les tables et cartes plus lisibles */
+.table-container {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #0f172a;
+  color: #64748b;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 1rem 1.25rem;
+}
+
+td {
+  padding: 1rem 1.25rem;
+  color: #e2e8f0;
+}
+
+/* Amélioration du Sidebar */
+aside {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 #1e2937;
+}
+
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #475569;
+  border-radius: 20px;
+}
+
+/* Hover effects plus doux */
+button, .nav-link {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
